@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="earhtRise" src="https://cdn.glitch.global/e9616aed-dc5d-40e0-a208-0b7f3e263a88/earthrise.jpg?v=1663659654919">
+        <img id="jswt" src="https://cdn.glitch.global/e9616aed-dc5d-40e0-a208-0b7f3e263a88/main_image_star-forming_region_carina_nircam_final-5mb_72dpi.jpg?v=1663659959869">
+        <img id="skyTexture"
+      src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
+      </a-assets>
+      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" width="1" height="1" depth="1"></a-box> -->
+      <a-sphere position="6 -5 -10" animation="property: position; to:-10 20 -20;dur: 3000; easing: linear; loop:true" radius="1.25" src="https://cdn.glitch.global/e9616aed-dc5d-40e0-a208-0b7f3e263a88/earthrising.png?v=1663661044074"></a-sphere>
+      <!-- <a-cylinder position="1 0.75 -3" radius="0.7" height="1.5" depth="2" color="#FFC65D"></a-cylinder>-->
+      <a-entity camera look-controls position="0 1.6 -3"></a-entity>
+      <a-plane position="0 0 -2" rotation="-95 -90 0" width="10" height="10" src="https://cdn.glitch.global/e9616aed-dc5d-40e0-a208-0b7f3e263a88/moonsoil%20texture.webp?v=1663660346763"></a-plane>
+      <a-sky src="https://cdn.glitch.global/e9616aed-dc5d-40e0-a208-0b7f3e263a88/nebula.jpg?v=1663660114336"></a-sky>
+      <!-- <a-sky src="31854599936_7cd08cf5e3_o.png"></a-sky> --> <!-- image equirectangulire espace-->
+      <a-sky src="https://cdn.glitch.global/e9616aed-dc5d-40e0-a208-0b7f3e263a88/nebula.jpg?v=1663660114336" color="#000000" opacity="0.7"></a-sky>
+    </a-scene>
+  </body>
+</html>
